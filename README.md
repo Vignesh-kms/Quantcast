@@ -20,6 +20,10 @@ Custom Exceptions :
 InvalidArgumentsException - if the Arguments are invalid or missing
 DateNotFoundException - if the date provided is not found in the cookies log file
 
+## Unit Testing - Junits
+src/test/java/CookieLogTests.java contains all the Junit test cases required for testing.
+Run the CookieLogTests class to test Junits.
+
 ## Build and run
 The following command install the dependencies needed for the application and build it.
 mvn clean install
